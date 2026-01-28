@@ -64,24 +64,15 @@ uvicorn main:app --reload
    http://127.0.0.1:8000/docs
 
 
-# Folder Structure
+## Folder Structure
 
-.
-├── api/          # API versioning and routers
-│   └── v1/       # Example: version 1 of the API
-│       └── routers/
-├── db/           # Database models and session
-├── auth/         # JWT and authentication services
-├── schemas/      # Pydantic request/response models
-└── main.py       # Application entry point
- 
 - api/ – Organize your API routes by version
 - db/ – Database models, tables, and session setup
 - auth/ – Authentication logic, JWT handling, user services
 - schemas/ – Request and response data structures using Pydantic
 - main.py – FastAPI app entry point
 
-# Additional Resources
+## Additional Resources
 
 - [FastAPI](https://fastapi.tiangolo.com/)  
 - [SQLAlchemy (Async)](https://docs.sqlalchemy.org/)  
